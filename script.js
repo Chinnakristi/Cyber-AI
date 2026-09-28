@@ -1,13 +1,3 @@
-/* =====================================================
-   CYBER.AI
-   INTERACTIONS
-===================================================== */
-
-
-/* =====================================================
-   CUSTOM CURSOR
-===================================================== */
-
 const cursor = document.querySelector(".cursor");
 const follower = document.querySelector(".cursor-follower");
 
@@ -74,9 +64,9 @@ if (cursor && follower) {
 }
 
 
-/* =====================================================
+/* 
    NAVBAR
-===================================================== */
+ */
 
 const navbar = document.getElementById("navbar");
 
@@ -95,9 +85,9 @@ window.addEventListener("scroll", () => {
 });
 
 
-/* =====================================================
+/* 
    MOBILE MENU
-===================================================== */
+*/
 
 const mobileMenu = document.getElementById("mobileMenu");
 const navLinks = document.querySelector(".nav-links");
@@ -131,9 +121,8 @@ document.querySelectorAll(".nav-link").forEach(link => {
 });
 
 
-/* =====================================================
-   ACTIVE NAVIGATION
-===================================================== */
+/*
+   ACTIVE NAVIGATION */
 
 const sections = document.querySelectorAll("section[id]");
 const navigationLinks = document.querySelectorAll(".nav-link");
@@ -190,9 +179,9 @@ window.addEventListener(
 updateNavigation();
 
 
-/* =====================================================
+/* 
    SMOOTH SCROLL
-===================================================== */
+ */
 
 document.querySelectorAll('a[href^="#"]').forEach(link => {
 
@@ -220,9 +209,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 });
 
 
-/* =====================================================
-   SCROLL REVEAL
-===================================================== */
+/*SCROLL REVEAL */
 
 const revealItems = document.querySelectorAll(
     ".problem-row, " +
@@ -281,9 +268,7 @@ revealItems.forEach(item => {
 });
 
 
-/* =====================================================
-   STAGGERED REVEAL
-===================================================== */
+/* STAGGERED REVEAL */
 
 const revealGroups = document.querySelectorAll(
     ".system-visual, .workflow-list, .tech-list"
@@ -305,9 +290,7 @@ revealGroups.forEach(group => {
 });
 
 
-/* =====================================================
-   RISK SCORE ANIMATION
-===================================================== */
+/* RISK SCORE ANIMATION*/
 
 const riskNumber =
     document.getElementById("riskNumber");
@@ -409,9 +392,7 @@ if (riskSection) {
 }
 
 
-/* =====================================================
-   DASHBOARD KPI COUNTERS
-===================================================== */
+/* DASHBOARD KPI COUNTERS */
 
 const kpis =
     document.querySelectorAll(
@@ -630,9 +611,7 @@ if (dashboardSection) {
 }
 
 
-/* =====================================================
-   AI CONSOLE BAR ANIMATION
-===================================================== */
+/* AI CONSOLE BAR ANIMATION */
 
 const consoleBars =
     document.querySelectorAll(
@@ -703,9 +682,7 @@ if (consoleSection) {
 }
 
 
-/* =====================================================
-   SYSTEM NODE ACTIVE EFFECT
-===================================================== */
+/*  SYSTEM NODE ACTIVE EFFECT */
 
 const systemNodes =
     document.querySelectorAll(
@@ -756,9 +733,7 @@ systemNodes.forEach(node => {
 });
 
 
-/* =====================================================
-   PARALLAX HERO
-===================================================== */
+/* PARALLAX HERO */
 
 const heroVisual =
     document.querySelector(
@@ -803,9 +778,7 @@ if (heroVisual) {
 }
 
 
-/* =====================================================
-   PAGE LOAD
-===================================================== */
+/* PAGE LOAD */
 
 window.addEventListener(
     "load",
